@@ -1,0 +1,218 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+nav{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: .6em;
+}
+
+.btn{
+  padding: 5px 10px;
+  background-color: #6060e7;
+  /* TODO make this a gradient */
+  color: white;
+  border-radius: 5px;
+
+}
+.navbar{
+  background-color: black;
+  float: left;
+  /* TODO fix this to match better */
+  width: 100%;
+  height: 45px;
+  background-color: black;
+}
+.nav-item {
+  /* display: inline; */
+  width: 11.11%;
+  float: left;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.active a{
+  color: grey;
+}
+
+.fa-apple{
+  color: white;
+}
+
+.fa-shopping-bag{
+  color: white;
+}
+
+
+/* product Nav */
+.product-nav{
+  text-align: left;
+  margin: 0 auto;
+  display: grid;
+  width: 960px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid #9b9b9b;
+}
+.product-nav ul{
+  text-align: end;
+}
+
+.product-nav ul li{
+  
+  display: inline;
+  padding-right: 15px;
+} 
+.product-nav a{
+  color: black;
+}
+
+.product-nav .active{
+  color: #9b9b9b;
+}
+
+.bold{
+  font-weight: bold;
+}
+.left{
+  
+  text-align: left;
+}
+
+  
+/* Sections */
+
+.title{
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  /* TODO: push the title out slightly */
+}
+
+.stat{
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+/* Gallary  */
+.grid-gallary{
+display: grid;
+grid-gap: 10px;
+grid-template-columns: repeat(4, 1fr);
+
+}
+
+.gallary-item{
+  width: 100%;
+  height: auto;
+}
+
+.description{
+  text-align: left;
+  color: #9b9b9b;
+  font-size: .5rem;
+}
+.center{
+  text-align: center;
+}
+
+.col-2{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  
+}
+
+.col-3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.col-5{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.details{
+  text-align: left;
+  font-size: .7em;
+  line-height: 2em;
+}
+.details p:first-child{
+  color: black;
+  font-weight: bold;
+}
+.details ul{
+  list-style-type: disc;
+  padding-left: 1.8em;
+}
+
+/* Footer */
+footer{
+  padding-top: 25px;
+  
+  background-color: #f2f2f2;
+  text-align: center;
+  min-height: 500px;
+}
+footer a{
+  max-width: 960px;
+  color: black;
+}
+
+footer h3:before{
+  background-image: url('http://unsplash.it/100/50?random')
+}
+.icons{
+  display: grid;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 25px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+ol {
+  font-size: .5em;
+  color:#9b9b9b;
+  line-height: 1.8em;
+  text-align: left;
+  list-style-type: decimal;
+}
+.footerNav{
+  max-width: 960px;
+  /* TODO: align this */
+}
+.footerNav ul li{
+  display: inline;
+  
+}
+.footerNav ul li::after{
+  content: " >";
+}
+.footerNav .fa-apple{
+  color: black;
+}
+
+
