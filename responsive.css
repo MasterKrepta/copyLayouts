@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+}
+
+.welcome{
+  height: 500px;
+  background-image: url('http://unsplash.it/g/2000?random&gravity=center');
+}
+.welcome h1{
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 300px;
+  letter-spacing: .1em;
+  color: white;
+  width: 310px;
+}
+.col-wide-2{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.col-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
