@@ -1,14 +1,72 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Anton', sans-serif;
+  
 }
 .container{
   width: 100%;
+  background-color:#c6c7c7;
+  border-right: 1px solid black;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+a > i{
+  color: black;
+}
+
+p{
+  padding: 10px;
+  padding-bottom: 25px;
+}
+
+.lead{
+  color: aqua;
+}
+nav{
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background-color: darkslategrey;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul{
+  padding: 15px;
+}
+nav ul li{
+  display: inline;
+  padding-left: 20px;
+}
+.logoBox{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  text-decoration: none;
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+}
+.logo{
+  width: 150px;
+  margin: 0 15px;
+  
 }
 
 .welcome{
   height: 500px;
   background-image: url('http://unsplash.it/g/2000?random&gravity=center');
+  
+  
 }
 .welcome h1{
   font-family: 'Anton', sans-serif;
@@ -19,9 +77,14 @@
   color: white;
   width: 310px;
 }
+img{
+  width: 100%;
+}
 .col-wide-2{
   display: grid;
+  grid-gap: 50px;
   grid-template-columns: 2fr 1fr;
+  width: 100%;
 }
 
 .col-2{
