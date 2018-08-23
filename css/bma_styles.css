@@ -11,6 +11,10 @@ body{
 }
 a{
   text-decoration: none;
+  
+}
+a:visited{
+  color:  rgb(142, 143, 144, .5);
 }
 /* Utilities  */
 .active{
@@ -48,13 +52,14 @@ nav{
   width: 1200px;
   margin: 0 auto;
 }
-nav a{
+a, a:visited{
   color: white;
 }
-nav a:hover{
+
+a:hover{
   color: rgb(144, 30, 1);
 }
-nav ul li{
+ul li{
   display: inline;
   padding-left: 20px;
 }
@@ -87,4 +92,29 @@ nav ul li{
   color: rgb(144, 30, 1);
 }
 
+
+
 /* Form */
+
+/* Gallary Nav */
+.gallary-nav{
+  font-size: .5em;
+  padding: 10px;
+  border: 1px solid rgb(142, 143, 144, .5);
+}
+.gallary-nav:hover{
+  border: 1px solid rgb(144, 30, 1);;
+}
+.current{
+  background-color: rgb(144, 30, 1);
+  color: white;
+}
+
+/* Footer */
+footer{
+  margin-top: 40px;
+  padding: 25px;
+  border-top: 1px solid rgb(142, 143, 144, .5);
+  text-align: center;
+  font-size: .5em;
+}
