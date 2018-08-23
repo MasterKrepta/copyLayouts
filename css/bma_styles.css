@@ -1,39 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background-color: #2d2d2e;
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-a{
+a {
   text-decoration: none;
-  
 }
-a:visited{
-  color:  rgb(142, 143, 144, .5);
+a:visited {
+  color: rgb(142, 143, 144, 0.5);
 }
 /* Utilities  */
-.active{
+.active {
   color: rgb(144, 30, 1);
 }
-.left{
+.left {
   text-align: left;
 }
-.right{
+.right {
   text-align: right;
 }
 
-
-.container{
+.container {
   width: 1200px;
   margin: 0 auto;
 }
 
-.breadcrumbs{
+.breadcrumbs {
   width: 100%;
   height: 100px;
   background-color: hsl(240, 1%, 15%);
@@ -41,80 +39,93 @@ a:visited{
   margin: 10px 0;
 }
 
-.col-2{
+.col-2 {
   padding: 25px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 /* Nav */
-nav{
+nav {
   width: 1200px;
   margin: 0 auto;
 }
-a, a:visited{
+a,
+a:visited {
   color: white;
 }
 
-a:hover{
+a:hover {
   color: rgb(144, 30, 1);
 }
-ul li{
+ul li {
   display: inline;
   padding-left: 20px;
 }
 
 /* Store */
-.store{
+.store {
   display: grid;
   grid-gap: 45px;
   grid-template-columns: 1fr 3fr;
 }
 
-.gallary{
+.gallary {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
 }
 
 /* Product  */
-.product{
-  border: 1px solid rgb(142, 143, 144, .5);
+.product {
+  border: 1px solid rgb(142, 143, 144, 0.5);
 }
 
-.product img{
+.product img {
   width: 100%;
   padding-top: 15px;
 }
 
-.price{
+.price {
   padding-top: 30px;
   color: rgb(144, 30, 1);
 }
 
-
-
 /* Form */
+span {
+  display: block;
+  font-size: 0.3em;
+}
+label {
+  padding-left: 5px;
+  color: rgb(142, 143, 144, 0.5);
+}
+input[type="text"] {
+  background-color: rgb(142, 143, 144, 0.5);
+  color: white;
+  border: none;
+  padding: 5px;
+}
 
 /* Gallary Nav */
-.gallary-nav{
-  font-size: .5em;
+.gallary-nav {
+  font-size: 0.5em;
   padding: 10px;
-  border: 1px solid rgb(142, 143, 144, .5);
+  border: 1px solid rgb(142, 143, 144, 0.5);
 }
-.gallary-nav:hover{
-  border: 1px solid rgb(144, 30, 1);;
+.gallary-nav:hover {
+  border: 1px solid rgb(144, 30, 1);
 }
-.current{
+.current {
   background-color: rgb(144, 30, 1);
   color: white;
 }
 
 /* Footer */
-footer{
+footer {
   margin-top: 40px;
   padding: 25px;
-  border-top: 1px solid rgb(142, 143, 144, .5);
+  border-top: 1px solid rgb(142, 143, 144, 0.5);
   text-align: center;
-  font-size: .5em;
+  font-size: 0.5em;
 }
