@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #2d2d2e;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+/* Utilities  */
+.active{
+  color: rgb(144, 30, 1);
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.breadcrumbs{
+  width: 100%;
+  height: 100px;
+  background-color: hsl(240, 1%, 15%);
+  border: 2px solid grey;
+  margin: 10px 0;
+}
+
+.col-2{
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Nav */
+nav{
+  width: 1200px;
+  margin: 0 auto;
+}
+nav a{
+  color: white;
+}
+nav a:hover{
+  color: rgb(144, 30, 1);
+}
+nav ul li{
+  display: inline;
+  padding-left: 20px;
+}
+
+/* Store */
+.store{
+  display: grid;
+  grid-gap: 45px;
+  grid-template-columns: 1fr 3fr;
+}
+
+.gallary{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Product  */
+.product{
+  border: 1px solid rgb(142, 143, 144, .5);
+}
+
+.product img{
+  width: 100%;
+  padding-top: 15px;
+}
+
+.price{
+  padding-top: 30px;
+  color: rgb(144, 30, 1);
+}
+
+/* Form */
